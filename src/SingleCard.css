@@ -1,0 +1,49 @@
+.button {
+    position: absolute;
+    border: 1px solid #c21f28;
+    background: #c21f28;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    top: 65%;
+    left: 10%;
+    z-index: 999;
+}
+.button:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background: #92141a;
+    border: 1px solid #92141a;
+}
+.contentWrap {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 999;
+    text-align: left;
+}
+.content {
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.filmTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+.Card {
+    width: 395px;
+    height: 222px;
+    margin-top: 40px;
+}
+.fader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+
+    width: 395px;
+    height: 222px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.80) 0%, rgba(20, 20, 20, 0.40) 50%, rgba(83, 100, 141, 0.00) 100%);
+}
