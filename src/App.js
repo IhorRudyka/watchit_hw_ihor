@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import SingleCard from './components/SingleCard/SingleCard';
 import Grid from '@mui/system/Unstable_Grid/Grid';
+import Footer from './components/Footer/Footer';
 
 const mockData = [
   {
@@ -47,6 +48,7 @@ function App() {
           </Grid>
         ))}
       </Grid>
+      <Footer/>
     </div>
   );
 }
